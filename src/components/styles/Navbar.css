@@ -1,0 +1,73 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #c70000; /* Red background */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-categories ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.categories-item {
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.categories-item:hover {
+  background-color: #ffffff;
+  color: #c70000;
+}
+
+.categories-item.active {
+  background-color: #ffffff;
+  color: #c70000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #2c3e50;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.search-bar:focus {
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  border: 1px solid #c70000;
+}
+
+.search-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #ff4d4d;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #ff1a1a;
+}

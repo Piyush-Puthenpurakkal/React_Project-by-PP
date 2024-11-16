@@ -1,0 +1,63 @@
+/* FullNews.css */
+
+.full-news {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+}
+
+.full-news.dark-mode {
+  background-color: #1e1e1e;
+  color: #ecf0f1;
+}
+
+.full-news h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.full-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.full-news p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.full-news.dark-mode p {
+  color: #ecf0f1;
+}
+
+.full-news a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.full-news a:hover {
+  text-decoration: underline;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #c70000;
+}
+
+.close-button:hover {
+  color: #ff1a1a;
+}
